@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejs
+spec:
+  selector:
+    matchLabels:
+      app: nodejs
+  template:
+    metadata:
+      labels:
+        app: nodejs
+    spec:
+      containers:
+        - name: nodejs
+          image: node
+          env:
+            - name: MONGODB_URI
+              value: "mongodb://mongodb:27017/myapp"
+          ports:
+            - containerPort: 3000
