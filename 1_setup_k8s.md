@@ -15,7 +15,7 @@
    - `minikube profile apono-k8s`
 
 4. Verify that you're now using the "apono-k8s" profile by running the following command:
-   - `minikube proifle` (should output `apono-k8s`)
+   - `minikube profile` (should output `apono-k8s`)
 
 5. Set `apono-k8s` as default context for kubectl
     - `kubectl config use-context apono-k8s`
@@ -25,4 +25,4 @@
 
 ### Setup k8s data
 
-1. 
+1.  Go to scripts directory and run `./k8s_warmup.sh`
