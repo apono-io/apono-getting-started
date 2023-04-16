@@ -31,6 +31,20 @@ For this tutorial we will use `Slack`
 
 ![connect_slack.gif](./gifs/connect_slack.gif)
 
+### Update K8s Integration with connect URL
+
+1. Open your kubectl config with `kubectl config view` and get the `server` URL for `apono-k8s` cluster
+
+2. Go to [K8s Integrations List](https://app.apono.io/catalog/connected?types=k8s-roles)
+
+3. Click 3 dots near you k8s integration and select `Edit`
+
+4. Enter the cluster URL into `kubeconfig Server URL` field
+
+5. Click `Update`
+ 
+![integration_details_update.gif](./gifs/integration_details_update.gif)
+
 ### Create an auto-approved access flow for Developers
 
 1. Navigate to [Access Flows](https://app.apono.io/access-flows) page
