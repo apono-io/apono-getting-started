@@ -35,4 +35,4 @@
 
 2. signup using your private or company email
 
-![apono_signup.gif](./gifs/apono_signup.gif)
+![apono_signup.gif](./gifs/1_apono_signup.gif)

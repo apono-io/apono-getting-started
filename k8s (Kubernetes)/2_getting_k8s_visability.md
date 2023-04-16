@@ -34,7 +34,5 @@
 3. Filter by _____, you can see that rnd-team has access to namespace ___ which it shouldn't have
 
 4. You can play with the filters and see what else you can find~~
-5. 
-![2_connect_k8s (1).gif](./gifs/2_connect_k8s%20%281%29.gif)
 
 ![2_connect_k8s.gif](./gifs/2_connect_k8s.gif)
