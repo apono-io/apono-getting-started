@@ -87,8 +87,6 @@ For this tutorial we will use `Slack`
 
 1. Run `kubectl get pods -n customer1 --context k8s-k8s-apono-connector`
 
-   * Replace `<context_name>` with the actual one depending on the name you gave the cluster in apono
-
 2. This should output the `mongodb` and `nodejs` pods running in that namespace
 
 3. Try the same command with `cutomer2` namespace, this would fail

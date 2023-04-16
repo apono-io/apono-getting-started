@@ -14,6 +14,8 @@
 
    * Later you can select multiple users and/or groups once you connect you IDP to Apono
 
+![update_access_flow_approver.gif](./gifs/update_access_flow_approver.gif)
+
 ### Request Access
 
 1. Go to [Slack web app](https://slack.com/)
@@ -40,11 +42,11 @@
 
 11. Click on Approve
 
+![request_access_with_approver.gif](./gifs/request_access_with_approver.gif)
+
 ### Check the new credentials
 
-1. Run `kubectl get pods -n data-pipeline --context <context_nane>`
-
-   * Replace `<context_name>` with the actual one depending on the name you gave the cluster in apono
+1. Run `kubectl get pods -n data-pipeline --context k8s-k8s-apono-connector`
 
 2. This should output the `rabbitmq` and `mysql` pods running in that namespace
 
@@ -64,4 +66,4 @@
 
 5. Go back to you terminal and try to list pods again with `kubectl get pods -n data-pipeline --context <context_nane>`
 
-
+![activity_page.gif](gifs%2Factivity_page.gif)

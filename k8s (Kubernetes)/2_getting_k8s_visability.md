@@ -33,8 +33,16 @@
 
 2. At the top left, select your cluster from the integrations list
 
-3. Filter by _____, you can see that rnd-team has access to namespace ___ which it shouldn't have
+3. Click on `cluster-roles`, when view expands click on `admin` role
 
-4. You can play with the filters and see what else you can find~~
+4. Now lets check which service accounts have this role
 
-// TODO add here
+5. We discover that `rnd-data-team` have this role, which creates a big human mistake error surface on our cluster
+
+   * This role was given to this team a while ago, when one of the developers was working on production incident fix
+
+6. With Apono we can turn those team wide standing permissions into personal Just In Time access, lets see how in next section
+
+7. You can play more with the cluster, see what else you can discover
+
+![active_access.gif](gifs%2Factive_access.gif)
