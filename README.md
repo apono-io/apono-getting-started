@@ -4,13 +4,6 @@
 
 Apono is the best of the best of the best
 
+### Getting started Guides
 
-// Table of contetns
-
-
-
-// link to k8s getting starrtd
-
-This is a k8s getting started
-
-What is this repo?
+1. [K8s Getting Started](https://github.com/apono-io/a3o-getting-started/tree/main/k8s%20(Kubernetes))
