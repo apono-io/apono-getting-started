@@ -7,13 +7,15 @@ For this tutorial we will use `Slack`
 
 ### Create a Slack workspace
 
-1. Go to https://slack.com/get-started#/landing
+1. Go to [Slack](https://slack.com/get-started#/landing)
 
 2. Click `Create a Workspace` and name it with some cool name
 
 ### Connect Slack workspace to Apono
 
 1. Go to [Integrations Catalog](https://app.apono.io/catalog)
+
+   <a href="https://app.apono.io/catalog" target="_blank">Integrations Catalog</a>
 
 2. Scroll down for `Slack` and click `Connect`
 
@@ -69,13 +71,17 @@ For this tutorial we will use `Slack`
 
 8. Click `Submit`
 
-9. You will receive and slack message notifying your of your request submission, and quickly after it will be replaced with your grant message containing your new credentials for the cluster 
+9. You will receive and slack message notifying your of your request submission
 
-10. Copy the command and run in your terminal, this will configure a new `kubectl` context
+10. Quickly after it will be replaced with your grant message containing your new credentials for the cluster
+
+11. Click the `Access Details` button to view your credentials
+
+12. Copy the command and run in your terminal, this will configure a new `kubectl` context named `k8s-k8s-apono-connector` 
 
 ### Check the new credentials
 
-1. Run `kubectl get pods -n customer3 --context <context_nane>`
+1. Run `kubectl get pods -n customer3 --context k8s-k8s-apono-connector`
 
    * Replace `<context_name>` with the actual one depending on the name you gave the cluster in apono
 

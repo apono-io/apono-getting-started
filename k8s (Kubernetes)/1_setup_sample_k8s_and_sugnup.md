@@ -4,6 +4,10 @@
 1. kubectl (https://kubernetes.io/docs/tasks/tools/)
 2. minikube (https://minikube.sigs.k8s.io/docs/start/)
 
+### Setup local env
+
+1. Clone this repo to your computer, and navigate to the `k8s` directory
+
 ### Setup sample k8s cluster with data
 
 1. Open a terminal window and start Minikube with the "apono-k8s" profile by running the following command:
