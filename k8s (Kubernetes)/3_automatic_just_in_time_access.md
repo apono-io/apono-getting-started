@@ -15,8 +15,6 @@ For this tutorial we will use `Slack`
 
 1. Go to [Integrations Catalog](https://app.apono.io/catalog)
 
-   <a href="https://app.apono.io/catalog" target="_blank">Integrations Catalog</a>
-
 2. Scroll down for `Slack` and click `Connect`
 
    * you can quickly search it from the search bar on the top
