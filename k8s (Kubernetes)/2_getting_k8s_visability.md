@@ -15,6 +15,8 @@
 
 5. Wait until you see a new connector is connected
 
+![2_connect_k8s.gif](./gifs/2_connect_k8s.gif)
+
 ### Check connected cluster
 
 1. Go to connected integrations list [Integrations Catalog](https://app.apono.io/catalog/connected)
@@ -35,4 +37,4 @@
 
 4. You can play with the filters and see what else you can find~~
 
-![2_connect_k8s.gif](./gifs/2_connect_k8s.gif)
+// TODO add here

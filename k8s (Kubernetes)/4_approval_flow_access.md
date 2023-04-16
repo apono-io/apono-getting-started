@@ -1,6 +1,4 @@
-## Access Flow creation
-
-// TODO choose if CLI is part of this Demo
+## Approval Access Flow
 
 ### Create an Access Flow with Approver 
 

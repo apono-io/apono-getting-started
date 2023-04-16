@@ -29,6 +29,8 @@ For this tutorial we will use `Slack`
 
 6. You will be redirected back to Apono, to `Connected Integrations` List, you should see `Slack` there with Active status
 
+![connect_slack.gif](./gifs/connect_slack.gif)
+
 ### Create an auto-approved access flow for Developers
 
 1. Navigate to [Access Flows](https://app.apono.io/access-flows) page
@@ -49,6 +51,8 @@ For this tutorial we will use `Slack`
 
 7. Leave other fields as defaults
 
+![create_automatic_access_flow.gif](./gifs/create_automatic_access_flow.gif)
+
 ### Request Access
 
 1. Go to [Slack web app](https://slack.com/)
@@ -63,7 +67,7 @@ For this tutorial we will use `Slack`
 
 5. Choose `Namespaces` for the `Resource type`
 
-6. Choose `customer3` from `Namespaces`
+6. Choose `customer1` from `Namespaces`
 
 7. Choose `edit` from `Permissions`
 
@@ -75,11 +79,13 @@ For this tutorial we will use `Slack`
 
 11. Click the `Access Details` button to view your credentials
 
-12. Copy the command and run in your terminal, this will configure a new `kubectl` context named `k8s-k8s-apono-connector` 
+12. Copy the command and run in your terminal, this will configure a new `kubectl` context named `k8s-k8s-apono-connector`
+
+![request_from_slack_1.gif](./gifs/request_from_slack_1.gif)
 
 ### Check the new credentials
 
-1. Run `kubectl get pods -n customer3 --context k8s-k8s-apono-connector`
+1. Run `kubectl get pods -n customer1 --context k8s-k8s-apono-connector`
 
    * Replace `<context_name>` with the actual one depending on the name you gave the cluster in apono
 
