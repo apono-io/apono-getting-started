@@ -1,10 +1,10 @@
-## K8s setup
+## Env setup
 
 ### Prerequisites
 1. kubectl (https://kubernetes.io/docs/tasks/tools/)
 2. minikube (https://minikube.sigs.k8s.io/docs/start/)
 
-### Start minikube cluster
+### Setup sample k8s cluster with data
 
 1. Open a terminal window and start Minikube with the "apono-k8s" profile by running the following command:
     - `minikube start --profile apono-k8s`
@@ -23,6 +23,12 @@
 6. verify kubectl is connected to `apono-k8s` cluster
     - `kubectl get namespaces`
 
-### Setup k8s data
+7. Setup sample k8s topology - Go to scripts directory and run `./k8s_warmup.sh`
 
-1.  Go to scripts directory and run `./k8s_warmup.sh`
+### Signup to apono app
+
+1. go to <https://app.apono.io>
+
+2. signup using your private or company email
+
+![apono_signup.gif](./gifs/apono_signup.gif)
