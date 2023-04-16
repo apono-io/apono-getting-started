@@ -1,0 +1,33 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: view
+  namespace: default
+rules:
+  - apiGroups: [""] # "" indicates the core API group
+    resources: ["pods", "services", "endpoints", "namespaces", "deployments","statefulsets"]
+    verbs: ["get", "watch", "list"]
+
+---
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: edit
+  namespace: default
+rules:
+  - apiGroups: [""] # "" indicates the core API group
+    resources: ["pods", "services", "endpoints", "namespaces", "deployments","statefulsets"]
+    verbs: ["get", "watch", "list", "create", "update", "patch", "delete"]
+
+---
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: admin
+  namespace: default
+rules:
+  - apiGroups: [""] # "" indicates the core API group
+    resources: ["pods", "services", "endpoints", "namespaces", "secrets", "configmaps", "persistentvolumes", "persistentvolumeclaims", "ingresses", "deployments", "replicasets", "statefulsets", "jobs", "cronjobs", "horizontalpodautoscalers", "poddisruptionbudgets", "networkpolicies", "certificatesigningrequests", "roles", "rolebindings", "clusterroles", "clusterrolebindings", "storageclasses", "priorityclasses", "podsecuritypolicies", "limitranges", "resourcequotas", "customresourcedefinitions", "podtemplates", "daemonsets"]
+    verbs: ["get", "watch", "list", "create", "update", "patch", "delete", "deletecollection", "scale", "attach", "exec", "portforward", "proxy", "use", "bind", "scheduling", "upgrade", "rollback", "pause", "resume", "applevolume", "binding", "eviction", "extend", "foregroundDeletion", "volumeExpansion", "patch", "apply", "create", "delete", "edit", "get", "list", "update", "watch", "use", "proxy", "redirect", "impersonate", "escalate"]
