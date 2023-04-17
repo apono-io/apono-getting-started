@@ -31,7 +31,7 @@
    - Switch to k8s scripts directory `cd ./kubernetes/scripts`
    - run k8s warmup script
      - linux `./k8s_warmup.sh`
-     - windows `k8s_warmup.bat`
+     - windows `.\k8s_warmup.bat`
 
 ### Signup to apono app
 
