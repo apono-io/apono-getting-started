@@ -28,7 +28,8 @@
     - `kubectl get namespaces`
 
 7. Setup sample k8s topology 
-   - run `./k8s/scripts/k8s_warmup.sh` 
+   - Switch to k8s scripts directory `cd ./kubernetes/scripts`
+   - run `./k8s_warmup.sh` 
 
 ### Signup to apono app
 

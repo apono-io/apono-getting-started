@@ -1,4 +1,4 @@
-# Apomo Getting Stared
+# Apono Getting Stared
 
 ### What is Apono?
 
@@ -8,4 +8,4 @@ Apono Permission Management Automation keeps SaaS businesses and their customers
 
 ### Getting started Guides
 
-[K8s Getting Started](https://github.com/apono-io/a3o-getting-started/tree/main/k8s%20(Kubernetes))
+[K8s Getting Started](https://github.com/apono-io/a3o-getting-started/tree/main/kubernetes)
