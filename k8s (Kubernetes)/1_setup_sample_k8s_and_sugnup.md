@@ -6,7 +6,7 @@
 
 ### Setup local env
 
-1. Clone this repo to your computer, and navigate to the `k8s` directory
+1. Clone this repo to your computer
 
 ### Setup sample k8s cluster with data
 
@@ -27,7 +27,8 @@
 6. verify kubectl is connected to `apono-k8s` cluster
     - `kubectl get namespaces`
 
-7. Setup sample k8s topology - Go to scripts directory and run `./k8s_warmup.sh`
+7. Setup sample k8s topology 
+   - run `./k8s/scripts/k8s_warmup.sh` 
 
 ### Signup to apono app
 

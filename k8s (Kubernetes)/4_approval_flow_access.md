@@ -54,7 +54,7 @@
 
 ### Review the Access from Apono
 
-1. Go to [Activity](https://app.apono.io/activity) [page]
+1. Go to [Activity Page](https://app.apono.io/activity)
 
 2. You see all Access requests made in your account, their status and details
 

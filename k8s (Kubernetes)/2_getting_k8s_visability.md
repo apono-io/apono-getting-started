@@ -23,13 +23,9 @@
 
 2. You should see your cluster there in `Active` status
 
-3. You should also see the synced resources from the cluster
-
-    * Those are not all the resources existing in the cluster, but those that Apono can immediately start managing access for you
-
 ### Getting some insights
 
-1. Go to [Active Access](https://app.apono.io/active-access) page
+1. Go to [Access Graph](https://app.apono.io/active-access) page
 
 2. At the top left, select your cluster from the integrations list
 
