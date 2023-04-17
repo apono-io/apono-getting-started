@@ -1,7 +1,7 @@
 ## Access Flow creation
 
 Apono gives end users the ability to easily request access from the platforms the already use daily
-`Slacl`, `Teams` and `CLI`
+`Slack`, `Teams` and `CLI`
 
 For this tutorial we will use `Slack`
 
@@ -33,7 +33,9 @@ For this tutorial we will use `Slack`
 
 ### Update K8s Integration with connect URL
 
-1. Open your kubectl config with `kubectl config view` and get the `server` URL for `apono-k8s` cluster
+1. Get cluster url from kube config
+
+   * `kubectl config view -o jsonpath='{.clusters[?(@.name == "apono-k8s")].cluster.server}'`
 
 2. Go to [K8s Integrations List](https://app.apono.io/catalog/connected?types=k8s-roles)
 
@@ -79,21 +81,23 @@ For this tutorial we will use `Slack`
 
 4. Choose you cluster in the `Integration` selection (if not auto selected)
 
-5. Choose `Namespaces` for the `Resource type`
+   Choose `Namespaces` for the `Resource type`
 
-6. Choose `customer1` from `Namespaces`
+   Choose `customer1` from `Namespaces`
 
-7. Choose `edit` from `Permissions`
+   Choose `edit` from `Permissions`
 
-8. Click `Submit`
+   Fill the `justification`
 
-9. You will receive and slack message notifying your of your request submission
+5. Click `Submit`
 
-10. Quickly after it will be replaced with your grant message containing your new credentials for the cluster
+6. You will receive and slack message notifying your of your request submission
 
-11. Click the `Access Details` button to view your credentials
+7. Quickly after it will be replaced with your grant message containing your new credentials for the cluster
 
-12. Copy the command and run in your terminal, this will configure a new `kubectl` context named `k8s-k8s-apono-connector`
+8. Click the `Access Details` button to view your credentials
+
+9. Copy the command and run in your terminal, this will configure a new `kubectl` context named `k8s-k8s-apono-connector`
 
 ![request_from_slack_1.gif](./gifs/request_from_slack_1.gif)
 
@@ -104,3 +108,5 @@ For this tutorial we will use `Slack`
 2. This should output the `mongodb` and `nodejs` pods running in that namespace
 
 3. Try the same command with `cutomer2` namespace, this would fail
+
+[Next: Approval Flow Creation](https://github.com/apono-io/a3o-getting-started/blob/main/kubernetes/4_approval_flow_access.md)

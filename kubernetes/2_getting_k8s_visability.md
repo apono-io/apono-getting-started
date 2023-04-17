@@ -7,9 +7,9 @@
 
 1. Go to [Connectors Page](https://app.apono.io/connectors)
 
-2. Click on `Create Connector`
+2. Click on `Install Connector`
 
-3. Select `Kubernetes`, then select `Install and Connect K8s Cluster`, and then select Helm
+3. Select `Kubernetes`, then select `Install and Connect K8s Cluster`, and then select `helm`
 
 4. Copy your token and follow the instructions link
 
@@ -23,13 +23,9 @@
 
 2. You should see your cluster there in `Active` status
 
-3. You should also see the synced resources from the cluster
-
-    * Those are not all the resources existing in the cluster, but those that Apono can immediately start managing access for you
-
 ### Getting some insights
 
-1. Go to [Active Access](https://app.apono.io/active-access) page
+1. Go to [Access Graph](https://app.apono.io/active-access) page
 
 2. At the top left, select your cluster from the integrations list
 
@@ -46,3 +42,5 @@
 7. You can play more with the cluster, see what else you can discover
 
 ![active_access.gif](gifs%2Factive_access.gif)
+
+[Next: Automatic Just in Time Access](https://github.com/apono-io/a3o-getting-started/blob/main/kubernetes/3_automatic_just_in_time_access.md)
