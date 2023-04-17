@@ -108,3 +108,5 @@ For this tutorial we will use `Slack`
 2. This should output the `mongodb` and `nodejs` pods running in that namespace
 
 3. Try the same command with `cutomer2` namespace, this would fail
+
+[Next: Approval Flow Creation](https://github.com/apono-io/a3o-getting-started/blob/main/kubernetes/4_approval_flow_access.md)

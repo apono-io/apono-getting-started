@@ -7,9 +7,9 @@
 
 1. Go to [Connectors Page](https://app.apono.io/connectors)
 
-2. Click on `Create Connector`
+2. Click on `Install Connector`
 
-3. Select `Kubernetes`, then select `Install and Connect K8s Cluster`, and then select Helm
+3. Select `Kubernetes`, then select `Install and Connect K8s Cluster`, and then select `helm`
 
 4. Copy your token and follow the instructions link
 
@@ -42,3 +42,5 @@
 7. You can play more with the cluster, see what else you can discover
 
 ![active_access.gif](gifs%2Factive_access.gif)
+
+[Next: Automatic Just in Time Access](https://github.com/apono-io/a3o-getting-started/blob/main/kubernetes/3_automatic_just_in_time_access.md)

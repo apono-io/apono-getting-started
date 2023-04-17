@@ -29,7 +29,9 @@
 
 7. Setup sample k8s topology 
    - Switch to k8s scripts directory `cd ./kubernetes/scripts`
-   - run `./k8s_warmup.sh` 
+   - run k8s warmup script
+     - linux `./k8s_warmup.sh`
+     - windows `k8s_warmup.bat`
 
 ### Signup to apono app
 
@@ -38,3 +40,5 @@
 2. signup using your private or company email
 
 ![apono_signup.gif](./gifs/1_apono_signup.gif)
+
+[Next: Getting k8s visibility](https://github.com/apono-io/a3o-getting-started/blob/main/kubernetes/2_getting_k8s_visability.md)
