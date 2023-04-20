@@ -29,7 +29,7 @@
 
 2. At the top left, select your cluster from the integrations list
 
-3. Click on `cluster-roles`, when view expands click on `admin` role
+3. Click on `cluster-roles`, when view expands click on `admin` role to filter the graph on this role
 
 4. Now click on `service-accounts`, to see which service accounts have this role
 
