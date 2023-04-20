@@ -31,7 +31,7 @@
 
 3. Click on `cluster-roles`, when view expands click on `admin` role
 
-4. Now lets check which service accounts have this role
+4. Now click on `service-accounts`, to see which service accounts have this role
 
 5. We discover that `rnd-data-team` have this role, which creates a big human mistake error surface on our cluster
 
